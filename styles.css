@@ -1,0 +1,58 @@
+#container {
+    /* position relative */
+    display: grid;
+    width: 500px;
+    height: 500px;
+    border-style: solid;
+    border-radius: 5px;
+    margin-left: 34%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 63px;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    display: flex;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+#blackButton {
+    margin: auto;
+    display: block;
+    margin-bottom: 20px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: medium;
+}
+
+#eraseButton {
+    margin: auto;
+    display: block;
+    margin-bottom: 20px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: medium;
+}
+
+#numberOfSquaresButton {
+    margin: auto;
+    display: block;
+    margin-bottom: 20px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: medium;
+    border: 0px;
+}
