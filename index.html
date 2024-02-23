@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Etch-a-Sketch</title>
+    <script src="script.js" defer></script>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>ETCH-A-SKETCH</h1>
+    <div class="buttons">
+      <button onclick="numberOfSquares()" id="numberOfSquaresButton">
+        Number of Squares
+      </button>
+      <button
+        onclick="setColor('black'); colorChanged('black')"
+        id="blackButton"
+      >
+        Black
+      </button>
+      <button
+        onclick="setColor('white'); colorChanged('white')"
+        id="eraseButton"
+      >
+        Erase
+      </button>
+    </div>
+    <div id="container"></div>
+  </body>
+</html>
